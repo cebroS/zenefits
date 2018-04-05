@@ -15,7 +15,7 @@ int factorial(int n){
 using namespace std;
 int position( vector<char> letter(int n), string s){
     vector<vector<char> >per(int n, vector<char>(factorial(int n)));
-    per.push_back(letter);
+    per[0].push_back(letter);
     vector<char> dummy;
     dummy=letter;
 
